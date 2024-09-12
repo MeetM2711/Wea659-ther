@@ -1,4 +1,3 @@
-// src/Components/Dropdown.jsx
 import React from 'react';
 
 const Dropdown = ({ label, options, value, onChange }) => {

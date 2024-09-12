@@ -1,4 +1,3 @@
-// src/Components/LocationSelector.jsx
 import React from 'react';
 import Dropdown from './Dropdown';
 
@@ -6,7 +5,7 @@ const LocationSelector = ({ statesAndCities, selectedState, setSelectedState, se
   const handleStateChange = (event) => {
     const newState = event.target.value;
     setSelectedState(newState);
-    setSelectedCity(statesAndCities[newState][0]); // Set the first city of the selected state as default
+    setSelectedCity(statesAndCities[newState][0]); 
   };
 
   const handleCityChange = (event) => {

@@ -1,4 +1,4 @@
-// src/Components/WeatherApp.jsx
+
 import React, { useState, useEffect } from "react";
 import { fetchWeatherData } from "./ApiComponent";
 import LocationSelector from "./LocationSelector";
@@ -786,8 +786,6 @@ const WeatherApp = () => {
                       <h1 class="temperature">
                         {weatherDetails.sunTemp}<span>ºC</span>
                       </h1>
-                      <span class="description">-</span>
-                      <span class="local">-, -&nbsp;&nbsp;</span>
                     </div>
                     <div class="other-results">
                       <div class="other">
